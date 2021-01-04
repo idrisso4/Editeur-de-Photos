@@ -1,2 +1,4 @@
-# Editeur-de-Photos
-C’est une application Desktop développée avec Python pour le traitement d’images.
+# Photo-Editor
+Desktop application for image editing developed with Python.
+
+Libraries: Tkinter, Matplotlib, Numpy
