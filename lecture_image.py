@@ -1,3 +1,6 @@
+# Author: idrisso4
+
+# Import Libraries
 import matplotlib.image as mpimg
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +16,7 @@ def r90d(im):
         imgd[:,hauteur-i-1]=im[i]
     return(imgd)
 
-def vert(img):
+def green(img):
     imgvert = np.zeros(img.shape)
     imgvert [ : , : , 1] = img [ : , : , 1]
     return(imgvert)
@@ -22,8 +25,6 @@ def negatif(img):
     imginverse = 1-img
     return(imginverse)
 
-def grismoyen(img):
+def gray(img):
     imggris = (img[ : , : , 0] + img[ : , : , 1] + img[ : , : , 2])/3
     return(imggris)
-
-
